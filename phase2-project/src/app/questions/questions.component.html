@@ -1,0 +1,20 @@
+<div *ngIf="quiz && !questions"></div>
+
+<div id="main" class="container center" *ngIf="questions">
+
+  <div class="questions" *ngIf="!showResults">
+    <app-question-form
+      [question]="questions[currentQuestionIndex]"
+      (onChoiceMade)="updateChoice($event)">
+    </app-question-form>
+    <div>
+    <button class="btn btn-warning"
+      (click)="nextOrViewResults()"
+      [disabled]="!answers.values[currentQuestionIndex]">
+      {{currentQuestionIndex === questions.length -1 ? 'View results' : 'Next'}}</button>
+  </div>
+  </div>
+
+  <app-results *ngIf="showResults" [answers]="answers"></app-results>
+</div>
+

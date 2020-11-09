@@ -1,0 +1,201 @@
+[{
+    "label": "1.Angular Js is based on?",
+    "choices": [{
+        "value": "MVC Architecture",
+        "correct": false
+      },
+      {
+        "value": "Decorator pattern",
+        "correct": false
+      },
+      {
+        "value": "MVVM Architectural pattern",
+        "correct": true
+      },
+      {
+        "value": "Observer Pattern",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "2.Which directive initializes an AngularJS application?",
+    "choices": [{
+        "value": "ng-init",
+        "correct": false
+      },
+      {
+        "value": "ng-app",
+        "correct": true
+      },
+      {
+        "value": "ngSrc",
+        "correct": false
+      },
+      {
+        "value": "ng-start",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "3.Which of following is not valid AngularJs Filter",
+    "choices": [{
+        "value": "lowercase",
+        "correct": false
+      },
+      {
+        "value": "orderby",
+        "correct": false
+      },
+      {
+        "value": "email",
+        "correct": true
+      },
+      {
+        "value": "currency",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "4.How do you share data between controller and view?",
+    "choices": [{
+        "value": "using Model",
+        "correct": false
+      },
+      {
+        "value": "using services",
+        "correct": true
+      },
+      {
+        "value": "using factory",
+        "correct": false
+      },
+      {
+        "value": "using $scope",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "5.What is $routeProvider ?",
+    "choices": [{
+        "value": "A service",
+        "correct": true
+      },
+      {
+        "value": " A module",
+        "correct": false
+      },
+      {
+        "value": "A component",
+        "correct": false
+      },
+      {
+        "value": "A file",
+        "correct": false
+      }
+    ]
+  },
+ {
+    "label": "6.AngularJS directives can be written in Templates as",
+    "choices": [{
+        "value": "Tag",
+        "correct": true
+      },
+      {
+        "value": "Attribute",
+        "correct": false
+      },
+      {
+        "value": "Class name",
+        "correct": false
+      },
+      {
+        "value": "All of the above",
+        "correct": true
+      }
+    ]
+  },
+ {
+    "label": "7.Which of the following directive allows us to use a form in AngularJs?",
+    "choices": [{
+        "value": "ng-include",
+        "correct": false
+      },
+      {
+        "value": "ng-form",
+        "correct": true
+      },
+      {
+        "value": "ng-directive",
+        "correct": false
+      },
+      {
+        "value": "ng-bind",
+        "correct": false
+      }
+    ]
+  },
+ {
+    "label": "8.AngularJS expressions are written using",
+    "choices": [{
+        "value": "(expression)",
+        "correct": false
+      },
+      {
+        "value": "{{expression}}",
+        "correct": true
+      },
+      {
+        "value": "{{{expression}}}",
+        "correct": false
+      },
+      {
+        "value": "[expression]",
+        "correct": false
+      }
+    ]
+  },
+ {
+    "label": "9.What are Angular Controllers are responsible for",
+    "choices": [{
+        "value": "Controlling the data.",
+        "correct": true
+      },
+      {
+        "value": "Displaying the data.",
+        "correct": false
+      },
+      {
+        "value": "Updating the data",
+        "correct": false
+      },
+      {
+        "value": "Deleting the data",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "10.AngularJS directives are used in",
+    "choices": [{
+        "value": "Module",
+        "correct": false
+      },
+      {
+        "value": "Controller",
+        "correct": false
+      },
+      {
+        "value": "Service",
+        "correct": false
+      },
+      {
+        "value": "View",
+        "correct": true
+      }
+    ]
+  }
+]

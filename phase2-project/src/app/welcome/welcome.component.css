@@ -1,0 +1,27 @@
+#main{
+    position: relative;
+    top: 8em;
+  }
+    .instructions{
+      text-align: center;
+     }
+  
+    .instructions p{
+  text-align: center;  
+  }
+  
+  a{
+    color: white;
+  }
+  
+    .title{
+      margin: auto;
+      color: black;
+      text-align: center;
+    }
+  
+  
+  .start-btn {
+      margin: 5px;
+      text-align: center;
+  }

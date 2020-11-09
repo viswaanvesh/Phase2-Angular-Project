@@ -1,0 +1,11 @@
+<div>
+    <div class="title">Results</div>
+    <div *ngFor="let a of answers.values" [ngClass]="{correct: a.correct, answer: a.value}">
+      {{a.value}}
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary">
+        <a routerLink="/welcome">Retake</a>
+      </button>
+    </div>
+  </div>
